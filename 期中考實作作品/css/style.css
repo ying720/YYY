@@ -1,0 +1,85 @@
+/*網頁版面寬度設定為980px且置中、設定背景顏色*/
+#container {
+    width: 980px;
+    margin: 40px auto;
+    background-color: #dceaf8;
+}
+
+/*視窗背景色設定*/
+body {
+    background-image: url(../img/哈阿阿阿阿.png);
+    background-repeat: repeat;
+    background-size: 400px;
+    background-position: top right;
+    background-attachment: fixed;
+
+}
+
+/*把相片大小設定為300*300、圓形、加上白色實心邊框*/
+.imgO {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+}
+
+/*把相片跟你的中英文名字設定為左右並排，相片在左邊、名字在右邊*/
+.imgL {
+    float: left;
+    margin-left: 20px;
+}
+
+.imgR {
+    float: right;
+    margin-right: 20px;
+}
+
+.r {
+    float: right;
+    margin-right: 500px;
+    margin-top: 20px;
+
+}
+
+/*學歷列表*/
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 120px;
+    background-color: #1d108e;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #FFF;
+    border: 1px solid rgb(72, 9, 121);
+    margin: 0px 10px;
+}
+
+.menu a {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    background: #6fa4df;
+    border-radius: 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: #90ddbb;
+}
+
+main {
+    margin-left: 40px;
+}
+
+.r40 {
+    margin-left: 40px;
+}
+
+.t20 {
+    margin-top: 20px;
+}
+
+footer {
+    margin-bottom: 20px;
+}
