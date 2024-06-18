@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        header {
+            height: 200px;
+            background-color: rgb(214, 233, 108);
+        }
+
+        nav {
+            height: 100px;
+        }
+
+        main {
+            min-height: 1000px;
+            background-color: aqua;
+        }
+
+        aside {
+            width: 20%;
+            background-color: rgb(101, 212, 160);
+            min-height: 1000px;
+            float: left;
+        }
+
+        section {
+            width: 20%;
+            background-color: yellow;
+            min-height: 1000px;
+            float: left;
+        }
+
+        footer {
+            height: 100px;
+            background-color: aquamarine;
+            clear: both;
+        }
+
+        .gotop {
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            border-radius: 50%;
+            padding: 10px 10px 0px;
+            text-align: center;
+            position: fixed;
+            right: 300px;
+            bottom: 10px;
+
+        }
+
+        .arrow {
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header"></div>
+        <nav></nav>
+        <main></main>
+        <footer></footer>
+    </div>
+    <a href="#header">
+        <div class="gotop">
+            <i class="fa-solid fa-arrow-up fa-bounce arrow" style="color: #FFD43B;"></i>
+        </div>
+    </a>
+</body>
+
+</html>

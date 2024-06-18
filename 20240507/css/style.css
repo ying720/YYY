@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+}
+
+header {
+    height: 200px;
+    background-color: rgb(45, 153, 35);
+}
+
+nav {
+    height: 100px;
+}
+
+main {
+    min-height: 1000px;
+    background-color: aqua;
+}
+
+aside {
+    width: 20%;
+    background-color: rgb(101, 212, 160);
+    min-height: 1000px;
+    float: left;
+}
+
+section {
+    width: 20%;
+    background-color: yellow;
+    min-height: 1000px;
+    float: left;
+}
+
+footer {
+    height: 100px;
+    background-color: aquamarine;
+    clear: both;
+}
